@@ -1,0 +1,44 @@
+name: family
+description: A new Flutter project.
+publish_to: "none"
+version: 1.0.0+1
+environment:
+  sdk: ">=3.0.3 <4.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  get: ^4.6.5
+  get_storage: ^2.1.1
+  dartz: ^0.10.1
+  http: ^1.0.0
+  arabic_font: ^0.0.9
+  image_picker: ^0.8.7+5
+  local_auth: ^2.1.6
+  dropdown_search: ^5.0.6
+  flutter_custom_clippers: ^2.1.0
+  cached_network_image: ^3.3.0
+  flutter_localizations:
+    sdk: flutter
+  flutter_colorpicker: ^1.0.3
+  carousel_slider: ^4.2.1
+  flutter_staggered_animations: ^1.1.1
+  photo_view: ^0.14.0
+  dio: ^5.3.3
+  url_launcher: ^6.1.14
+  flex_color_picker: ^3.3.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: "^0.13.1"
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/logo.png"
+  adaptive_icon_background: "assets/back_logo.png"
+  min_sdk_android: 21
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
